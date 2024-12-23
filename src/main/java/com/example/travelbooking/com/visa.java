@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 public class visa {
     @GetMapping("/myvisa")
-    public String getData(){
+    public String getData() {
         return "your visa for belgium is approved and valid for 5 years";
     }
 }

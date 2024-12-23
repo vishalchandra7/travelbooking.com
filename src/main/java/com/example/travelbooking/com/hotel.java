@@ -12,6 +12,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class hotel {
     @GetMapping("/myhotel")
     public String getData(){
-        return "Please book your room,Taj Palace2";
+        return "Please book your room,Taj Palace";
     }
 }

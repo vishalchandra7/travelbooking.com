@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class train {
     @GetMapping("/mytrain")
     public String getData(){
+
         return "Please book your ticket,Indian Railways";
     }
 }
