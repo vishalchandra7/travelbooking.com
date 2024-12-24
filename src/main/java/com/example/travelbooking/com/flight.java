@@ -12,6 +12,6 @@ public class flight {
     @GetMapping("/myflight")
     public String getData(){
 
-        return "Please book your ticket for Brussel,Emirates Airways";
+        return "Please book your ticket for Brussel and Paris,Emirates Airways";
     }
 }
