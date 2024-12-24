@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 
 @RestController
-
 public class flight {
     @GetMapping("/myflight")
     public String getData(){
-        return "Please book your ticket,Emirates Airways";
+
+        return "Please book your ticket for Brussel and Paris,Emirates Airways";
     }
 }
